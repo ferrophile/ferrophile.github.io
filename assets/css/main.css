@@ -2089,6 +2089,10 @@ input, select, textarea {
 				white-space: nowrap;
 			}
 
+			.image.special:after {
+				content: 'Reveal!';
+			}
+
 			.image.thumb:hover:after {
 				opacity: 1.0;
 			}
